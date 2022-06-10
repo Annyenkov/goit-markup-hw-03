@@ -106,6 +106,7 @@ padding-right: 15px;
   margin-left: 50px;
 }
 .header-contact {
+  padding: 30px 0;
   text-decoration: none;
   color: var(--first-text-color);
 }
@@ -121,7 +122,8 @@ padding-right: 15px;
   color: var(--third-text-color);
   background-color: var(--background-color);
 }
-.footer .container {
+.footer {
+  padding-bottom: 60px;
   padding-top: 60px;
 }
 .footer-logo {
@@ -163,17 +165,15 @@ padding-right: 15px;
 
 /*main index.html*/
 
-.main {
-  height: 600px;
-  margin-bottom: 71px;
+.hero {
+  padding: 200px 0;
   text-align: center;
   padding-left: auto;
   padding-right: auto;
   background-color: var(--background-color);
 }
-.main-title {
-  padding-top: 200px;
-  margin-bottom: 30px;
+.hero-title {
+  max-width: 650px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -181,8 +181,13 @@ padding-right: 15px;
   letter-spacing: .6px;
   text-transform: uppercase;
   color: var(--third-text-color);
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
-.main-button {
+.hero-button {
+  padding: 10px 32px;
+  border: 0;
+  border-radius: 4px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -192,13 +197,16 @@ padding-right: 15px;
   color: var(--third-text-color);
   background-color: var(--accent-color);
 }
-.main-button:hover,
-.main-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   color: var(--third-text-color);
   background-color: #188CE8;
 }
-.section:not(:last-child) {
-  margin-bottom: 94px;
+.section {
+  padding: 94px 0;
+}
+.about {
+  padding-bottom: 0;
 }
 .peculiarities {
   color: transparent;
@@ -213,7 +221,7 @@ padding-right: 15px;
 }
 .peculiarities-header {
   margin-bottom: 10px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.14;
   letter-spacing: .2px;
   text-transform: uppercase;
@@ -265,8 +273,8 @@ padding-right: 15px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.team-img {
-    margin-bottom: 30px;
+.team-card {
+  padding: 30px 0;
 }
 .team-name {
   margin-bottom: 10px;
@@ -277,7 +285,6 @@ padding-right: 15px;
   color: var(--second-text-color);
 }
 .team-position {
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -287,9 +294,6 @@ padding-right: 15px;
 
 .border {
   border: 1px solid #ececec;
-}
-.portfolio {
-  margin: 94px 0;
 }
 .portfolio-title {
   color: var(--third-text-color);
@@ -341,18 +345,18 @@ padding-right: 15px;
   border: 1px solid#eee;
   list-style: none;
 }
-.indent {
-  margin-bottom: 20px;
+.project-card {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  
 }
 .portfolio-project-type {
-  margin-left: 20px;
-   margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.87;
   color: var(--first-text-color);
 }
 .portfolio-project-name {
-  margin-left: 20px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
